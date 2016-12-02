@@ -1,9 +1,9 @@
 for line in open("ELECTION_ID"):
-
+### Indentation?!?!? this code does not run at all
 
 
 total = 0
-for l in open("salaries.csv"):
+for l in open("salaries.csv"): 
 if "FIRE" not in l: continue
 sl = l.strip (). split(",")
 total += float(sl[4][1:])
